@@ -1,0 +1,130 @@
+body{
+    background-image: url(/images/KHbackground.png);
+    background-position: contain;
+    background-repeat: no-repeat;
+    background-size: 1520px 735px;
+}
+
+.nav-container{
+    padding-top: 1.5em;
+    display: flex;
+    align-content:center
+    
+}
+
+.nav-container li{
+    float: left;
+    list-style: none;
+    padding-left: 1em;
+}
+
+.nav-container a{
+    text-decoration: none;
+    color: #F1ECEC;
+}
+
+.nav-container a:hover{
+    text-decoration: underline;
+}
+
+#main-content{
+    display: block;
+    margin: auto;
+    margin-top: 4em;
+    margin-left: 15em;
+    width: 30%;
+    padding-top: 0.5em;
+    padding-right: 5em;
+    padding-left: 4em;
+    padding-bottom: 1.5em;
+    font-size: 20px;
+    line-height: 1.4em;
+    font-style: italic;
+    font-weight: bold;
+    color: #F1ECEC;
+    text-shadow: 1px 1px 2px gray;
+    border-color: honeydew;
+    border-radius: 40px;
+    box-shadow: 1px 1px #302E21, -1px -1px #302E21;
+}
+
+#main-content h2{
+    text-decoration: underline;
+}
+
+#main-content p{
+    font-size: 30px;
+}
+
+section input{
+    width: 67%;
+    height: 1.5em;
+    border-radius: 3em;
+    border: none;
+    background-color: rgba(238, 238, 238, 0.60);
+    color: #9B8888;
+}
+
+section input[type=text]{
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+section button{
+    width: 25%;
+    height: 3.3em;
+    border-radius: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border: none;
+    background-color: rgba(238, 238, 238, 0.89);
+    color: #9B8888;
+    margin-right: 2em;
+    
+}
+
+section button a{
+    font-size: 22px;
+    text-align: center;
+    font-weight: bolder;
+    font-style: italic;
+    text-decoration: none;
+    line-height: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #9B8888;
+}
+
+button:hover{
+    box-shadow: 5px 5px 5px gray ;
+}
+
+section input:hover{
+    box-shadow: 5px 5px 5px gray ;
+}
+
+.footer{
+    margin-top: 11em;
+    display: flex;
+    align-content: center;
+    padding-left: 12em;
+}
+
+.footer li{
+    display: inline-block;
+    list-style: none;
+    padding-left: 1em;
+}
+
+.footer a{
+    color: #F1ECEC;
+    text-decoration: none;
+}
+    
+.footer a:hover{
+    text-decoration: underline;
+}
+
+   
+    
